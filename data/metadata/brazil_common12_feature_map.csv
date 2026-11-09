@@ -1,0 +1,13 @@
+input_order,canonical_name
+1,gdp_growth_qoq
+2,headline_inflation_yoy
+3,policy_rate_change_pp
+4,m3_growth_qoq
+5,usd_brl_change_qoq
+6,imports_growth_qoq
+7,investment_growth_qoq
+8,private_consumption_growth_qoq
+9,manufacturing_growth
+10,share_price_return_qoq
+11,reer_change_qoq
+12,capacity_utilisation

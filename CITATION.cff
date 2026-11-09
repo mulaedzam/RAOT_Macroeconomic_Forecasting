@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code or data package, please cite the associated paper."
+title: "Release-Aligned Observation Tokenisation for Transformer-Based Macroeconomic Forecasting: Reproducibility Package"
+type: software
+authors:
+  - family-names: "Mathoho"
+    given-names: "Mulaedza"
+year: 2026
+repository-code: "TO_BE_ADDED_AFTER_GITHUB_REPOSITORY_IS_CREATED"
+preferred-citation:
+  type: article
+  title: "Release-Aligned Observation Tokenisation for Transformer-Based Macroeconomic Forecasting: Evidence from South Africa and Brazil"
+  authors:
+    - family-names: "Mathoho"
+      given-names: "Mulaedza"
+  year: 2026
+  journal: "Forecasting"
+  doi: "TO_BE_ADDED_AFTER_PUBLICATION"

@@ -1,0 +1,13 @@
+input_order,canonical_name,source_feature,concept
+1,gdp_growth_qoq,gdp_growth_qoq,historical real GDP growth
+2,headline_inflation_yoy,headline_inflation_yoy,headline inflation
+3,policy_rate_change_pp,repo_rate_change,policy-rate change
+4,m3_growth_qoq,m3_growth_qoq,broad-money growth
+5,usd_local_change_qoq,usd_zar_change_qoq,USD/local-currency exchange-rate change
+6,imports_growth_qoq,imports_growth_qoq,real imports growth
+7,investment_growth_qoq,investment_growth_qoq,real investment growth
+8,private_consumption_growth_qoq,private_consumption_growth_qoq,real private-consumption growth
+9,manufacturing_growth,manufacturing_growth_qoq,manufacturing production growth
+10,share_price_return_qoq,share_price_return_qoq,share-price return
+11,reer_change_qoq,reer_change_qoq,real effective exchange-rate change
+12,capacity_utilisation,capacity_utilisation,manufacturing capacity utilisation

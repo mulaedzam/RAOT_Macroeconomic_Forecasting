@@ -1,0 +1,13 @@
+provider,portal_url,role,repository_note
+Statistics South Africa,https://www.statssa.gov.za/,South Africa official statistics,Verify redistribution terms for downloaded publications/files.
+South African Reserve Bank,https://www.resbank.co.za/,South Africa monetary and financial data,Use official statistics/release pages.
+FRED,https://fred.stlouisfed.org/,Economic time series aggregator,Retain original source attribution shown by FRED.
+OECD Data Explorer,https://data-explorer.oecd.org/,OECD statistical series,Retain dataset/series identifiers and attribution.
+BIS Data Portal,https://data.bis.org/,BIS financial and effective-exchange-rate statistics,Check BIS permitted-use and citation terms.
+IBGE/SIDRA,https://sidra.ibge.gov.br/,Brazil official statistics,Retain table/series identifiers and access dates.
+Banco Central do Brasil,https://www3.bcb.gov.br/sgspub/,Brazil central-bank time series,Retain SGS series codes and access dates.
+IMF Data,https://data.imf.org/,International Financial Statistics and related macro series,Retain dataset/series identifiers and access dates.
+World Bank DataBank,https://databank.worldbank.org/,World Development Indicators,Retain indicator codes and access dates.
+IEA,https://www.iea.org/data-and-statistics,Energy statistics,Redistribution rights may differ by dataset; verify before uploading raw files.
+Eulerpool,https://eulerpool.com/,Third-party economic data source used in one Brazil M3 input file,Review licensing; prefer a reproducible official replacement if possible.
+Investing.com,https://www.investing.com/,Third-party market-data export used for some candidate files,Do not redistribute raw exports without checking terms.

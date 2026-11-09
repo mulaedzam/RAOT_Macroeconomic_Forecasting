@@ -1,0 +1,5 @@
+country,model,rmse,mae,smape,direction_accuracy_pct
+South Africa,Q0,4.394487,1.827191,117.41,67.86
+South Africa,RAOT,4.399805,1.840417,114.847,67.86
+Brazil,Q0,2.470138,1.214176,93.596,89.29
+Brazil,RAOT,2.45809,1.188434,87.534,89.29

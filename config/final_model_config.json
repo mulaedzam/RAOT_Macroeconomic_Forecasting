@@ -1,0 +1,40 @@
+{
+  "forecast_target": "real GDP quarter-on-quarter growth",
+  "forecast_horizon_quarters": 1,
+  "lookback_quarters": 8,
+  "test_period": "2019Q1-2025Q4",
+  "architecture": {
+    "d_model": 16,
+    "attention_heads": 2,
+    "encoder_layers": 1,
+    "feedforward_dim": 32,
+    "dropout": 0.2,
+    "pooling": "mean",
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 16,
+    "gradient_clip_norm": 1.0,
+    "loss": "MSE"
+  },
+  "fixed_epochs": {
+    "Q0": 4,
+    "RAOT_O1": 10
+  },
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55,
+    66,
+    77,
+    88,
+    99,
+    111
+  ],
+  "representations": {
+    "Q0": "one release-aligned multivariate token per quarter",
+    "RAOT_O1": "one token per release-aligned feature-time observation with value projection, feature identity embedding and temporal positional encoding"
+  }
+}

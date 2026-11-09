@@ -1,0 +1,24 @@
+feature,source_family,approx_release_delay_days,strict_quarter_end_shift_quarters,confidence,basis
+gdp_growth_qoq,IMF IFS / South African national accounts,75,1,high,South African quarterly GDP is released roughly 2-2.5 months after quarter-end; IMF/FRED series updates follow the national-accounts release.
+headline_inflation_yoy,Statistics South Africa CPI,20,1,high,Monthly CPI is normally published around the third week of the following month.
+repo_rate_change,South African Reserve Bank MPC,0,0,high,Policy-rate decisions are public on the MPC announcement date.
+yield_spread_10y_3m,Financial-market interest rates,0,0,medium,"Underlying bond/interbank rates are observable in financial markets contemporaneously, although the OECD monthly series used in the raw dataset is updated later."
+m3_growth_qoq,SARB money and banking / OECD series,30,1,medium,SARB selected monthly monetary data are released around month-end for the preceding month; the project series is an OECD quarterly transformation.
+private_credit_gdp_change,BIS credit-to-GDP,165,2,high,"The project uses the BIS quarterly credit-to-GDP series, which is materially delayed relative to monthly bank-credit indicators."
+usd_zar_change_qoq,Daily USD/ZAR market rate,0,0,high,Daily FX observations are contemporaneously observable.
+exports_growth_qoq,IMF IFS / South African national accounts,75,1,high,The project uses quarterly real national-accounts exports rather than faster customs trade values.
+imports_growth_qoq,IMF IFS / South African national accounts,75,1,high,The project uses quarterly real national-accounts imports rather than faster customs trade values.
+investment_growth_qoq,IMF IFS / South African national accounts,75,1,high,Gross fixed capital formation is released with the quarterly national accounts.
+private_consumption_growth_qoq,IMF IFS / South African national accounts,75,1,high,Private consumption is released with the quarterly national accounts.
+manufacturing_growth_qoq,Statistics South Africa manufacturing / OECD,42,1,high,Stats SA manufacturing production is typically released about six weeks after the reference month.
+us_gdp_growth_qoq,US BEA real GDP,30,1,high,BEA advance GDP is normally released about one month after quarter-end.
+share_price_return_qoq,Equity-market prices,0,0,high,Underlying share prices are observable contemporaneously even though the OECD monthly index used in the dataset is published later.
+reer_change_qoq,BIS real effective exchange rate,20,1,medium,BIS monthly REER updates are generally available during the following month.
+sa_usd_zar_volatility,Daily USD/ZAR market rate,0,0,high,Volatility is computed from contemporaneously observed daily FX returns.
+reserves_growth_qoq,SARB official gold and foreign-exchange reserves / IMF,7,1,high,SARB reserve notices are generally released in the first week after month-end.
+government_consumption_growth_qoq,IMF IFS / South African national accounts,75,1,high,Government consumption is released with the quarterly national accounts.
+retail_sales_growth_yoy,Statistics South Africa retail trade / OECD,50,1,high,Retail trade is generally released around seven weeks after the reference month.
+capacity_utilisation,Manufacturing capacity utilisation,65,1,high,Capacity-utilisation releases are relatively delayed; current Stats SA/OECD schedules imply roughly two months.
+business_confidence,Business confidence survey,0,0,medium,Business-confidence survey results are generally available during the reference quarter; exact historical release timing varies by provider.
+electricity_growth_qoq,Statistics South Africa electricity P4141,37,1,high,Monthly electricity data are typically published around five to six weeks after the reference month.
+building_plans_growth_qoq,Statistics South Africa building statistics P5041.1,50,1,high,Monthly building statistics are typically published about seven weeks after the reference month.

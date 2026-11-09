@@ -1,0 +1,5 @@
+country,loss,mean_raot_minus_q0,ci95_lower,ci95_upper
+South Africa,squared_error,0.051872,-0.156527,0.239315
+South Africa,absolute_error,0.018428,-0.032045,0.06159
+Brazil,squared_error,-0.042752,-0.153788,0.062091
+Brazil,absolute_error,-0.021457,-0.082053,0.026518

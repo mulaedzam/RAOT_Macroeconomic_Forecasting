@@ -1,0 +1,13 @@
+feature,concept,operational_release_lag_days,rationale
+headline_inflation_yoy,headline CPI inflation,20,Monthly CPI is published after the reference month; use a conservative post-quarter release proxy.
+policy_rate_change_pp,policy interest rate,0,SELIC decisions are known when announced.
+m3_growth_qoq,broad money,30,Monetary aggregates are released after the reference month/quarter.
+usd_brl_change_qoq,nominal exchange rate,0,Market exchange rates are observed contemporaneously.
+imports_growth_qoq,real imports from national accounts,75,National-account expenditure components are available with the quarterly GDP release.
+investment_growth_qoq,real gross fixed capital formation,75,National-account expenditure components are available with the quarterly GDP release.
+private_consumption_growth_qoq,real private consumption,75,National-account expenditure components are available with the quarterly GDP release.
+manufacturing_growth,manufacturing production,42,Production indicators are released after the reference period.
+share_price_return_qoq,share prices,0,Market prices are observed contemporaneously.
+reer_change_qoq,real effective exchange rate,20,REER index is published after the reference month.
+capacity_utilisation,manufacturing capacity utilisation,65,Survey/activity measure is treated conservatively as post-quarter information.
+gdp_growth_qoq,historical real GDP growth input,75,Quarterly GDP is only available after the reference quarter; historical GDP input must therefore also be release-aligned.

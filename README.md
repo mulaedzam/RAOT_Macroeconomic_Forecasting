@@ -81,19 +81,6 @@ The final pipeline runs the Brazil frozen evaluation, the matched South African 
 
 `results/reported_common12_model_performance.csv` and `results/reported_bootstrap_summary.csv` contain the values reported in the current manuscript and can be used as regression checks after rerunning the final pipeline.
 
-## Important release status
 
-This package contains the actual final analysis scripts available in the project archive and has been converted from a machine-specific Windows path to repository-relative paths. However, two items still need to be copied from the original experiment environment before the repository should be described as fully reproducible:
 
-1. the exact generated processed/model-ready CSV/NPZ and original seed-level result files; and
-2. the exact package/version lock from the environment that produced the reported results.
 
-See `REPRODUCIBILITY_CHECKLIST.md` and `data/processed/README.md`.
-
-## Citation
-
-Use `CITATION.cff`. Replace the placeholder repository URL and publication DOI once available.
-
-## Licence
-
-A licence has deliberately not been selected automatically. See `LICENSE_NOTE.md` before making the repository public.
